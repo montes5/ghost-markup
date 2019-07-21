@@ -84,6 +84,14 @@ input {
   border: none;
 }
 
+body::after {
+  content:
+    url(../assets/images/comments/page1-bg.png)
+    url(../assets/images/comments/page2-bg.png)
+    url(../assets/images/comments/page3-bg.png);
+  display: none;
+}
+
 /*--HEADER----------------------------------------------------------------------------------------*/
 
 .header {
