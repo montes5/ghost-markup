@@ -2,11 +2,6 @@
 let counter = 1;
 let buttonNodes = document.getElementsByClassName('comments__bar__button-list__item');
 let bg = document.getElementsByClassName('comments')[0];
-
-bg.style.background = 'url(./assets/images/comments/page2-bg.png)';
-bg.style.background = 'url(./assets/images/comments/page3-bg.png)';
-bg.style.background = 'url(./assets/images/comments/page1-bg.png)';
-
 buttonNodes[0].onclick = () => {
   counter = 0;
   buttonNodes[0].style.background = 'white';
